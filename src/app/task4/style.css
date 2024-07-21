@@ -1,0 +1,568 @@
+.text-with-border {
+  color: white;
+  text-shadow: 
+     -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+
+
+
+@keyframes signup1 {
+  from {transform: translateX(0%);  }
+  to { transform: translateX(139%) }
+}
+
+@keyframes signup2 {
+  from {transform: translateX(0%);  }
+  to { transform: translateX(214%) }
+}
+
+@keyframes signup3 {
+  from { transform: translateX(139%); }
+  to { transform: translateY(-100%) translateX(139%);  }
+}
+
+@keyframes signup4 {
+  from {transform: translateX(214%); }
+  to { transform: translateY(-209%) translateX(214%); }
+}
+
+@keyframes signup5 {
+  from {transform: translateX(0%); }
+  to { transform: translateX(423%) }
+}
+
+@keyframes signup6 {
+  from {transform: translateX(423%); }
+  to { transform: translateY(-282%) translateX(423%);}
+}
+
+
+
+/* 2xl */
+@keyframes moveLeft {
+  0%, 20% { transform: translateX(0%); }
+ 
+  20%, 100% { transform: translateX(-600%); }
+}
+
+@keyframes movedown {
+  from {transform: translateX(0%);  width:310px; height:310px}
+  to { transform: translateY(70%); width:200px; height:200px}
+}
+
+/* XL */
+@keyframes spreadXL1 {
+  from {transform: translateY(100%);  }
+  to { transform: translateX(-170%)  translateY(100%); }
+}
+
+@keyframes spreadXL2 {
+  from {transform: translateY(100%);  }
+  to { transform: translateX(-290%)  translateY(100%); }
+}
+
+@keyframes spreadXL3 {
+  from {transform: translateY(100%) translateX(-268%);  }
+  to { transform: translateX(-248%) translateY(100%); }
+}
+
+@keyframes spreadXL4 {
+  from {transform: translateY(100%) translateX(-268%);  }
+  to { transform: translateX(-467%)  translateY(100%); }
+}
+
+/* 2XL */
+@keyframes spread1 {
+  from {transform: translateY(100%);  }
+  to { transform: translateX(-120%)  translateY(100%); }
+}
+
+@keyframes spread2 {
+  from {transform: translateY(100%);  }
+  to { transform: translateX(-240%)  translateY(100%); }
+}
+
+@keyframes spread3 {
+  from {transform: translateY(100%) translateX(-268%);  }
+  to { transform: translateX(-298%) translateY(100%); }
+}
+
+@keyframes spread4 {
+  from {transform: translateY(100%) translateX(-268%);  }
+  to { transform: translateX(-417%)  translateY(100%); }
+}
+
+@keyframes spreadXL1 {
+  from {transform: translateY(100%);  }
+  to { transform: translateX(-234%)  translateY(100%); }
+}
+
+@keyframes spreadXL2 {
+  from {transform: translateY(100%);  }
+  to { transform: translateX(-354%)  translateY(100%); }
+}
+
+@keyframes spreadXL3 {
+  from {transform: translateY(100%) translateX(-268%);  }
+  to { transform: translateX(-532%) translateY(100%); }
+}
+
+@keyframes spreadXL4 {
+  from {transform: translateY(100%) translateX(-268%);  }
+  to { transform: translateX(-414%)  translateY(100%); }
+}
+
+
+
+.last {
+  visibility: hidden; 
+  opacity: 0; 
+  animation: last 0.2s linear 9.8s forwards;
+}
+
+@keyframes last {
+  from {
+      visibility: hidden; 
+      opacity: 0;
+  }
+  to {
+      visibility: visible; 
+      opacity: 1;
+  }
+}
+
+@keyframes moveLeft2 {
+  from {transform: translateX(0%) rotate(0deg)}
+  to {transform: translateX(-268%) rotate(-60deg)}
+}
+
+.hidden1 {
+  animation: hidden 1s ease 8s forwards;
+}
+
+
+
+@keyframes heading1 {
+  from {
+    transform: translateX(0%);}
+  to {
+    transform: translateX(480px);
+  }
+}
+
+@keyframes heading2 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(620px);
+  }
+}
+
+@keyframes heading3 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(760px);
+  }
+}
+@keyframes heading5 {
+  from {
+    transform: translateX(480px);
+  }
+  to {
+    transform: translateY(-68px) translateX(480px);
+  }
+}
+
+@keyframes heading6 {
+  from {
+    transform: translateX(620px);
+  }
+  to {
+    transform: translateY(-98px) translateX(620px);
+  }
+}
+
+@keyframes heading7 {
+  from {
+    transform: translateX(760px);
+  }
+  to {
+    transform: translateY(-128px) translateX(760px);
+  }
+}
+
+/* xl */
+
+
+@keyframes headingXL1 {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(344px);
+  }
+}
+
+@keyframes headingXL2 {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(434px) 
+  }
+}
+
+@keyframes headingXL3 {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(540px);
+  }
+}
+
+@keyframes headingXL4 {
+  from {
+    transform: translateX(344px);
+  }
+  to {
+    transform: translateY(-68px) translateX(344px);
+  }
+}
+
+@keyframes headingXL5 {
+  from {
+    transform: translateX(434px);
+  }
+  to {
+    transform: translateY(-98px) translateX(434px) 
+  }
+}
+
+@keyframes headingXL6 {
+  from {
+    transform: translateX(540px);
+  }
+  to {
+    transform: translateY(-128px) translateX(540px);
+  }
+}
+
+@keyframes hidden {
+  from {}
+  to {
+    transform: translate(1500px);
+  }
+}
+
+
+/* MD */
+@media (min-width: 728px) {
+  .headingMD1{
+    animation: headingMD1 1s linear 7s forwards,headingMD4 1s linear 9s forwards;
+  }
+  
+  .headingMD2{
+    animation: headingLG2 1s linear 7s forwards,headingMD5 1s linear 9s forwards;
+  }
+  
+  .headingMD3{
+    animation: headingMD3 1s linear 7s forwards,headingMD6 1s linear 9s forwards;
+  }
+  .signupMD1 {
+    animation: signupMD1 1s linear 8s 1 forwards, signupMD3 1s linear 9s 1 forwards;
+  }
+  
+  .signupMD2 {
+    animation: signupMD2 1s linear 8s 1 forwards, signupMD4 1s linear 9s 1 forwards;
+  }
+  
+  .signupMD3 {
+    animation: signupMD5 1s linear 8s 1 forwards, signupMD6 1s linear 9s 1 forwards;
+  }
+
+  .boxMD1 {
+    animation: movedown 2s ease 6s forwards, spreadMD1 1s linear 8s forwards;
+  }
+  
+  .boxMD2 {
+    animation: movedown 2s ease 6s forwards, spreadMD2 1s linear 8s forwards;
+  }
+  
+  .boxMD3 {
+    animation: moveLeft 7s linear 4s 1 forwards;
+  }
+  
+  .boxMD4 {
+    animation: moveLeft 7s linear 2s 1 forwards;
+  }
+
+  .boxyMD1 {
+    animation: moveLeft2 2s linear 4s forwards, movedown 2s ease 6s 1 forwards, spreadMD3 1s linear 8s forwards;
+  }
+  
+  .boxyMD2 {
+    animation: moveLeft2 2s linear 2s forwards, movedown 2s ease 6s 1 forwards, spreadMD4 1s linear 8s forwards;
+  }
+}
+
+/* LG */
+@media (min-width: 1024px) {
+  .headingLG1{
+    animation: headingLG1 1s linear 7s forwards,headingLG4 1s linear 9s forwards;
+  }
+  
+  .headingLG2{
+    animation: headingLG2 1s linear 7s forwards,headingLG5 1s linear 9s forwards;
+  }
+  
+  .headingLG3{
+    animation: headingLG3 1s linear 7s forwards,headingLG6 1s linear 9s forwards;
+  }
+  .signupLG1 {
+    animation: signupLG1 1s linear 8s 1 forwards, signupLG3 1s linear 9s 1 forwards;
+  }
+  
+  .signupLG2 {
+    animation: signupLG2 1s linear 8s 1 forwards, signupLG4 1s linear 9s 1 forwards;
+  }
+  
+  .signupLG3 {
+    animation: signupLG5 1s linear 8s 1 forwards, signupLG6 1s linear 9s 1 forwards;
+  }
+
+  .boxLG1 {
+    animation: movedown 2s ease 6s forwards, spreadLG1 1s linear 8s forwards;
+  }
+  
+  .boxLG2 {
+    animation: movedown 2s ease 6s forwards, spreadLG2 1s linear 8s forwards;
+  }
+  
+  .boxLG3 {
+    animation: moveLeft 7s linear 4s 1 forwards;
+  }
+  
+  .boxLG4 {
+    animation: moveLeft 7s linear 2s 1 forwards;
+  }
+
+  .boxyLG1 {
+    animation: moveLeft2 2s linear 4s forwards, movedown 2s ease 6s 1 forwards, spreadLG3 1s linear 8s forwards;
+  }
+  
+  .boxyLG2 {
+    animation: moveLeft2 2s linear 2s forwards, movedown 2s ease 6s 1 forwards, spreadLG4 1s linear 8s forwards;
+  }
+}
+
+/* XL Styles */
+@media (min-width: 1280px) {
+  .headingXL1{
+    animation: headingXL1 1s linear 7s forwards,headingXL4 1s linear 9s forwards;
+  }
+  
+  .headingXL2{
+    animation: headingXL2 1s linear 7s forwards,headingXL5 1s linear 9s forwards;
+  }
+  
+  .headingXL3{
+    animation: headingXL3 1s linear 7s forwards,headingXL6 1s linear 9s forwards;
+  }
+  .signupXL1 {
+    animation: signupXL1 1s linear 8s 1 forwards, signupXL3 1s linear 9s 1 forwards;
+  }
+  
+  .signupXL2 {
+    animation: signupXL2 1s linear 8s 1 forwards, signupXL4 1s linear 9s 1 forwards;
+  }
+  
+  .signupXL3 {
+    animation: signupXL5 1s linear 8s 1 forwards, signupXL6 1s linear 9s 1 forwards;
+  }
+
+  .boxXL1 {
+    animation: movedown 2s ease 6s forwards, spreadXL1 1s linear 8s forwards;
+  }
+  
+  .boxXL2 {
+    animation: movedown 2s ease 6s forwards, spreadXL2 1s linear 8s forwards;
+  }
+  
+  .boxXL3 {
+    animation: moveLeft 7s linear 4s 1 forwards;
+  }
+  
+  .boxXL4 {
+    animation: moveLeft 7s linear 2s 1 forwards;
+  }
+
+  .boxyXL1 {
+    animation: moveLeft2 2s linear 4s forwards, movedown 2s ease 6s 1 forwards, spreadXL3 1s linear 8s forwards;
+  }
+  
+  .boxyXL2 {
+    animation: moveLeft2 2s linear 2s forwards, movedown 2s ease 6s 1 forwards, spreadXL4 1s linear 8s forwards;
+  }
+}
+
+/* XL */
+@keyframes signupXL1 {
+  from {transform: translateX(0%);  }
+  to { transform: translateX(65%) }
+}
+
+@keyframes signupXL2 {
+  from {transform: translateX(0%);  }
+  to { transform: translateX(153%) }
+}
+
+@keyframes signupXL5 {
+  from {transform: translateX(0%); }
+  to { transform: translateX(300%) }
+}
+
+@keyframes signupXL3 {
+  from { transform: translateX(80%); }
+  to { transform: translateY(-100%) translateX(80%);  }
+}
+
+@keyframes signupXL4 {
+  from {transform: translateX(153%); }
+  to { transform: translateY(-209%) translateX(153%); }
+}
+
+@keyframes signupXL6 {
+  from {transform: translateX(286%); }
+  to { transform: translateY(-282%) translateX(286%);}
+}
+
+
+/* lg */
+@keyframes signupLG1 {
+  from {transform: translateX(0%);  }
+  to { transform: translateX(55%) }
+}
+
+@keyframes signupLG2 {
+  from {transform: translateX(0%);  }
+  to { transform: translateX(127%) }
+}
+
+@keyframes signupLG5 {
+  from {transform: translateX(0%); }
+  to { transform: translateX(224%) }
+}
+
+@keyframes signupLG3 {
+  from { transform: translateX(55%); }
+  to { transform: translateY(-100%) translateX(55%);  }
+}
+
+@keyframes signupLG4 {
+  from {transform: translateX(127%); }
+  to { transform: translateY(-209%) translateX(127%); }
+}
+
+@keyframes signupLG6 {
+  from {transform: translateX(224%); }
+  to { transform: translateY(-282%) translateX(224%);}
+}
+
+
+/* md */
+@keyframes signupLG1 {
+  from {transform: translateX(0%);  }
+  to { transform: translateX(55%) }
+}
+
+@keyframes signupLG2 {
+  from {transform: translateX(0%);  }
+  to { transform: translateX(127%) }
+}
+
+@keyframes signupLG5 {
+  from {transform: translateX(0%); }
+  to { transform: translateX(224%) }
+}
+
+@keyframes signupLG3 {
+  from { transform: translateX(55%); }
+  to { transform: translateY(-100%) translateX(55%);  }
+}
+
+@keyframes signupLG4 {
+  from {transform: translateX(127%); }
+  to { transform: translateY(-209%) translateX(127%); }
+}
+
+@keyframes signupLG6 {
+  from {transform: translateX(224%); }
+  to { transform: translateY(-282%) translateX(224%);}
+}
+
+
+/* 2XL Styles */
+@media (min-width: 1530px) {
+  .heading1 {
+    animation: heading1 1s linear 8s 1 forwards, heading5 1s linear 9s forwards;
+  }
+  
+  .heading2 {
+    animation: heading2 1s linear 8s 1 forwards, heading6 1s linear 9s forwards;
+  }
+  
+  .heading3 {
+    animation: heading3 1s linear 8s 1 forwards, heading7 1s linear 9s forwards;
+  }
+
+  .signup1 {
+    animation: signup1 1s linear 8s 1 forwards, signup3 1s linear 9s 1 forwards;
+  }
+  
+  .signup2 {
+    animation: signup2 1s linear 8s 1 forwards, signup4 1s linear 9s 1 forwards;
+  }
+  
+  .signup3 {
+    animation: signup5 1s linear 8s 1 forwards, signup6 1s linear 9s 1 forwards;
+  }
+
+  .box1 {
+    animation: movedown 2s ease 6s forwards, spread1 1s linear 8s forwards;
+  }
+  
+  .box2 {
+    animation: movedown 2s ease 6s forwards, spread2 1s linear 8s forwards;
+  }
+  
+  .box3 {
+    animation: moveLeft 7s linear 4s 1 forwards;
+  }
+  
+  .box4 {
+    animation: moveLeft 7s linear 2s 1 forwards;
+  }
+  
+  .boxy1 {
+    animation: moveLeft2 2s linear 4s forwards, movedown 2s ease 6s 1 forwards, spread3 1s linear 8s forwards;
+  }
+  
+  .boxy2 {
+    animation: moveLeft2 2s linear 2s forwards, movedown 2s ease 6s 1 forwards, spread4 1s linear 8s forwards;
+  }
+  
+}
+  
+
+
+
+
+
