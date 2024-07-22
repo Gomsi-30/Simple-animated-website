@@ -8,7 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-   
+      rotate: {
+        '10': '10deg',
+        '20': '20deg',
+        '30': '30deg',
+      },
     },
    
   },

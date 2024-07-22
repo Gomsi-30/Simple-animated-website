@@ -7,9 +7,6 @@
      1px 1px 0 #000;
 }
 
-
-
-
 @keyframes signup1 {
   from {transform: translateX(0%);  }
   to { transform: translateX(139%) }
@@ -140,12 +137,68 @@
   to {transform: translateX(-268%) rotate(-60deg)}
 }
 
+
+
 .hidden1 {
   animation: hidden 1s ease 8s forwards;
 }
 
+/* lg heading */
+@keyframes headingLG1 {
+  from {
+    transform: translateX(0%);}
+  to {
+    transform: translateX(249px);
+  }
+}
+
+@keyframes headingLG2 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(364px);
+  }
+}
+
+@keyframes headingLG3 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(499px);
+  }
+}
 
 
+@keyframes headingLG4 {
+  from {
+    transform: translateX(249px);
+  }
+  to {
+    transform: translateY(-70px) translateX(249px);
+  }
+}
+
+@keyframes headingLG5 {
+  from {
+    transform: translateX(364px);
+  }
+  to {
+    transform: translateY(-101px) translateX(364px) 
+  }
+}
+
+@keyframes headingLG6 {
+  from {
+    transform: translateX(499px);
+  }
+  to {
+    transform: translateY(-132px) translateX(499px);
+  }
+}
+
+/* 2xl heading */
 @keyframes heading1 {
   from {
     transform: translateX(0%);}
@@ -363,18 +416,22 @@
   }
 }
 
+@keyframes moveLeftXL2 {
+  from {transform: translateX(0%) rotate(0deg)}
+  to {transform: translateX(-332%) rotate(-60deg)}
+}
 /* XL Styles */
 @media (min-width: 1280px) {
   .headingXL1{
-    animation: headingXL1 1s linear 7s forwards,headingXL4 1s linear 9s forwards;
+    animation: headingXL1 1s linear 8s forwards,headingXL4 1s linear 9s forwards;
   }
   
   .headingXL2{
-    animation: headingXL2 1s linear 7s forwards,headingXL5 1s linear 9s forwards;
+    animation: headingXL2 1s linear 8s forwards,headingXL5 1s linear 9s forwards;
   }
   
   .headingXL3{
-    animation: headingXL3 1s linear 7s forwards,headingXL6 1s linear 9s forwards;
+    animation: headingXL3 1s linear 8s forwards,headingXL6 1s linear 9s forwards;
   }
   .signupXL1 {
     animation: signupXL1 1s linear 8s 1 forwards, signupXL3 1s linear 9s 1 forwards;
@@ -405,18 +462,18 @@
   }
 
   .boxyXL1 {
-    animation: moveLeft2 2s linear 4s forwards, movedown 2s ease 6s 1 forwards, spreadXL3 1s linear 8s forwards;
+    animation: moveLeftXL2 2s linear 3s forwards, movedown 2s ease 6s 1 forwards, spreadXL3 1s linear 8s forwards;
   }
   
   .boxyXL2 {
-    animation: moveLeft2 2s linear 2s forwards, movedown 2s ease 6s 1 forwards, spreadXL4 1s linear 8s forwards;
+    animation: moveLeftXL2 2s linear 1s forwards, movedown 2s ease 6s 1 forwards, spreadXL4 1s linear 8s forwards;
   }
 }
 
 /* XL */
 @keyframes signupXL1 {
   from {transform: translateX(0%);  }
-  to { transform: translateX(65%) }
+  to { transform: translateX(80%) }
 }
 
 @keyframes signupXL2 {
@@ -510,7 +567,7 @@
 
 
 /* 2XL Styles */
-@media (min-width: 1530px) {
+@media (min-width: 1500px) {
   .heading1 {
     animation: heading1 1s linear 8s 1 forwards, heading5 1s linear 9s forwards;
   }
@@ -560,9 +617,91 @@
   }
   
 }
-  
+
+@media (max-width: 768px) and (min-width: 550px) {
+
+  .leftydowny {
+    animation: lefty 2s linear 2s forwards, downy1 1s linear 4s forwards;
+  }
+  .rightydowny {
+    animation: righty 2s linear 2s forwards, downy2 1s linear 4s forwards;
+  }
+  .leftyrighty {
+    animation: lefty 2s linear 2s forwards,lefty2 1s linear 4s forwards
+  }
+  .rightylefty {
+    animation:  righty 2s linear 2s forwards,righty2 1s linear 4s forwards
+  }
+ 
+}
+
+@keyframes lefty2 {
+  from {
+    transform: translateX(245%);
+  }
+  to {
+    transform: translateX(-120%) translateX(245%);
+  }
+}
+@keyframes righty2 {
+  from {
+    transform: translateX(-245%);
+  }
+  to {
+    transform: translateX(120%) translateX(-245%);
+  }
+}
+@keyframes lefty {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(245%);
+  }
+}
+@keyframes downy1 {
+  from {
+    transform: translateX(245%);
+  }
+  to {
+    transform: translateY(134%) translateX(245%);
+  }
+}
+
+@keyframes righty {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-245%);
+  }
+}
 
 
+@keyframes downy2 {
+  from {
+    transform: translateX(-245%);
+  }
+  to {
+    transform: translateY(134%) translateX(-245%);
+  }
+} 
 
+@keyframes left1 {
+  from {
+    transform: translateX(-245%);
+  }
+  to {
+    transform: translateX(150%) translateX(-245%);
+  }
+}
 
+@keyframes right2 {
+  from {
+    transform: translateX(255%);
+  }
+  to {
+    transform: translateX(-162%) translateX(255%);
+  }
+}
 
