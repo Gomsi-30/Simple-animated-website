@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '300px', // Custom xs breakpoint at 480px
+      },
       rotate: {
         '10': '10deg',
         '20': '20deg',

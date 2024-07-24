@@ -9,32 +9,33 @@
 
 @keyframes signup1 {
   from {transform: translateX(0%);  }
-  to { transform: translateX(139%) }
+  to { transform: translateX(95%) }
 }
 
 @keyframes signup2 {
   from {transform: translateX(0%);  }
-  to { transform: translateX(214%) }
-}
-
-@keyframes signup3 {
-  from { transform: translateX(139%); }
-  to { transform: translateY(-100%) translateX(139%);  }
-}
-
-@keyframes signup4 {
-  from {transform: translateX(214%); }
-  to { transform: translateY(-209%) translateX(214%); }
+  to { transform: translateX(170%) }
 }
 
 @keyframes signup5 {
   from {transform: translateX(0%); }
-  to { transform: translateX(423%) }
+  to { transform: translateX(327%) }
 }
 
+@keyframes signup3 {
+  from { transform: translateX(87%); }
+  to { transform: translateY(-100%) translateX(87%);  }
+}
+
+@keyframes signup4 {
+  from {transform: translateX(150%); }
+  to { transform: translateY(-209%) translateX(150%); }
+}
+
+
 @keyframes signup6 {
-  from {transform: translateX(423%); }
-  to { transform: translateY(-282%) translateX(423%);}
+  from {transform: translateX(327%); }
+  to { transform: translateY(-200%) translateX(327%);}
 }
 
 
@@ -46,10 +47,7 @@
   20%, 100% { transform: translateX(-600%); }
 }
 
-@keyframes movedown {
-  from {transform: translateX(0%);  width:310px; height:310px}
-  to { transform: translateY(70%); width:200px; height:200px}
-}
+
 
 /* XL */
 @keyframes spreadXL1 {
@@ -73,29 +71,34 @@
 }
 
 /* 2XL */
+@keyframes movedown {
+  from {transform: translateX(0%);  width:230px; height:230px}
+  to { transform: translateY(80%); width:160px; height:160px}
+}
+
 @keyframes spread1 {
-  from {transform: translateY(100%);  }
-  to { transform: translateX(-120%)  translateY(100%); }
+  from {transform: translateY(110%);  }
+  to { transform: translateX(-280%)  translateY(110%); }
 }
 
 @keyframes spread2 {
-  from {transform: translateY(100%);  }
-  to { transform: translateX(-240%)  translateY(100%); }
+  from {transform: translateY(110%);  }
+  to { transform: translateX(-400%)  translateY(110%); }
 }
 
 @keyframes spread3 {
-  from {transform: translateY(100%) translateX(-268%);  }
-  to { transform: translateX(-298%) translateY(100%); }
+  from {transform: translateY(110%) translateX(-268%);  }
+  to { transform: translateX(-558%) translateY(110%); }
 }
 
 @keyframes spread4 {
-  from {transform: translateY(100%) translateX(-268%);  }
-  to { transform: translateX(-417%)  translateY(100%); }
+  from {transform: translateY(110%) translateX(-268%);  }
+  to { transform: translateX(-678%)  translateY(110%); }
 }
 
 @keyframes spreadXL1 {
-  from {transform: translateY(100%);  }
-  to { transform: translateX(-234%)  translateY(100%); }
+  from {transform: translateY(80%);  }
+  to { transform: translateX(-234%)  translateY(80%); }
 }
 
 @keyframes spreadXL2 {
@@ -134,7 +137,7 @@
 
 @keyframes moveLeft2 {
   from {transform: translateX(0%) rotate(0deg)}
-  to {transform: translateX(-268%) rotate(-60deg)}
+  to {transform: translateX(-361%) rotate(-60deg)}
 }
 
 
@@ -198,12 +201,66 @@
   }
 }
 
+/* xs heading */
+@keyframes headingXS1 {
+  from {
+    transform: translateX(0%);}
+  to {
+    transform: translateX(90px);
+  }
+}
+
+@keyframes headingXS2 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(170px);
+  }
+}
+
+@keyframes headingXS3 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(220px);
+  }
+}
+@keyframes headingXS5 {
+  from {
+    transform: translateX(90px);
+  }
+  to {
+    transform: translateY(-8px) translateX(90px);
+  }
+}
+
+@keyframes headingXS6 {
+  from {
+    transform: translateX(160PX);
+  }
+  to {
+    transform: translateY(-35px) translateX(160px);
+  }
+}
+
+@keyframes headingXS7 {
+  from {
+    transform: translateX(240px);
+  }
+  to {
+    transform: translateY(-63px) translateX(240px);
+  }
+}
+
+
 /* 2xl heading */
 @keyframes heading1 {
   from {
     transform: translateX(0%);}
   to {
-    transform: translateX(480px);
+    transform: translateX(380px);
   }
 }
 
@@ -212,7 +269,7 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(620px);
+    transform: translateX(520px);
   }
 }
 
@@ -221,33 +278,33 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(760px);
+    transform: translateX(660px);
   }
 }
 @keyframes heading5 {
   from {
-    transform: translateX(480px);
+    transform: translateX(280px);
   }
   to {
-    transform: translateY(-68px) translateX(480px);
+    transform: translateY(-68px) translateX(280px);
   }
 }
 
 @keyframes heading6 {
   from {
-    transform: translateX(620px);
+    transform: translateX(420px);
   }
   to {
-    transform: translateY(-98px) translateX(620px);
+    transform: translateY(-98px) translateX(420px);
   }
 }
 
 @keyframes heading7 {
   from {
-    transform: translateX(760px);
+    transform: translateX(560px);
   }
   to {
-    transform: translateY(-128px) translateX(760px);
+    transform: translateY(-128px) translateX(560px);
   }
 }
 
@@ -317,7 +374,7 @@
 
 
 /* MD */
-@media (min-width: 728px) {
+/* @media (min-width: 728px) {
   .headingMD1{
     animation: headingMD1 1s linear 7s forwards,headingMD4 1s linear 9s forwards;
   }
@@ -364,10 +421,10 @@
   .boxyMD2 {
     animation: moveLeft2 2s linear 2s forwards, movedown 2s ease 6s 1 forwards, spreadMD4 1s linear 8s forwards;
   }
-}
+} */
 
 /* LG */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .headingLG1{
     animation: headingLG1 1s linear 7s forwards,headingLG4 1s linear 9s forwards;
   }
@@ -414,14 +471,14 @@
   .boxyLG2 {
     animation: moveLeft2 2s linear 2s forwards, movedown 2s ease 6s 1 forwards, spreadLG4 1s linear 8s forwards;
   }
-}
+} */
 
 @keyframes moveLeftXL2 {
   from {transform: translateX(0%) rotate(0deg)}
   to {transform: translateX(-332%) rotate(-60deg)}
 }
 /* XL Styles */
-@media (min-width: 1280px) {
+/* @media (min-width: 1000px) {
   .headingXL1{
     animation: headingXL1 1s linear 8s forwards,headingXL4 1s linear 9s forwards;
   }
@@ -468,7 +525,7 @@
   .boxyXL2 {
     animation: moveLeftXL2 2s linear 1s forwards, movedown 2s ease 6s 1 forwards, spreadXL4 1s linear 8s forwards;
   }
-}
+} */
 
 /* XL */
 @keyframes signupXL1 {
@@ -567,7 +624,7 @@
 
 
 /* 2XL Styles */
-@media (min-width: 1500px) {
+@media (min-width: 1200px) {
   .heading1 {
     animation: heading1 1s linear 8s 1 forwards, heading5 1s linear 9s forwards;
   }
@@ -618,9 +675,20 @@
   
 }
 
-@media (max-width: 768px) and (min-width: 550px) {
+@media (max-width: 640px) and (min-width: 400px) {
 
-  .leftydowny {
+  .headingXS1{
+    animation: headingXS1 1s linear 7s forwards,headingXS5 1s linear 9s forwards;
+  }
+  
+  .headingXS2{
+    animation: headingXS2 1s linear 7s forwards,headingXS6 1s linear 9s forwards;
+  }
+  
+  .headingXS3{
+    animation: headingXS3 1s linear 7s forwards,headingXS7 1s linear 9s forwards;
+  }
+  /* .leftydowny {
     animation: lefty 2s linear 2s forwards, downy1 1s linear 4s forwards;
   }
   .rightydowny {
@@ -631,7 +699,7 @@
   }
   .rightylefty {
     animation:  righty 2s linear 2s forwards,righty2 1s linear 4s forwards
-  }
+  } */
  
 }
 
