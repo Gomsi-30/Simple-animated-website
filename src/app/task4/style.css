@@ -28,8 +28,8 @@
 }
 
 @keyframes signup4 {
-  from {transform: translateX(150%); }
-  to { transform: translateY(-209%) translateX(150%); }
+  from {transform: translateX(148%); }
+  to { transform: translateY(-209%) translateX(148%); }
 }
 
 
@@ -137,7 +137,7 @@
 
 @keyframes moveLeft2 {
   from {transform: translateX(0%) rotate(0deg)}
-  to {transform: translateX(-361%) rotate(-60deg)}
+  to {transform: translateX(-361%) rotate(0deg)}
 }
 
 
@@ -262,7 +262,7 @@
   from {
     transform: translateX(0%);}
   to {
-    transform: translateX(15vw);
+    transform: translateX(7vw);
   }
 }
 
@@ -271,7 +271,7 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(27vw);
+    transform: translateX(20vw);
   }
 }
 
@@ -280,33 +280,33 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(41vw);
+    transform: translateX(32vw);
   }
 }
 @keyframes headingXS5 {
   from {
-    transform: translateX(15vw);
+    transform: translateX(4.5vw);
   }
   to {
-    transform: translateY(-8px) translateX(15vw);
+    transform: translateY(-8px) translateX(4.5vw);
   }
 }
 
 @keyframes headingXS6 {
   from {
-    transform: translateX(27vw);
+    transform: translateX(21.5vw);
   }
   to {
-    transform: translateY(-32px) translateX(27vw);
+    transform: translateY(-31.5px) translateX(21.5vw);
   }
 }
 
 @keyframes headingXS7 {
   from {
-    transform: translateX(41vw);
+    transform: translateX(41.5vw);
   }
   to {
-    transform: translateY(-56px) translateX(41vw);
+    transform: translateY(-55px) translateX(41.5vw);
   }
 }
 
@@ -351,7 +351,7 @@
     transform: translateX(420px);
   }
   to {
-    transform: translateY(-98px) translateX(420px);
+    transform: translateY(-92.5px) translateX(420px);
   }
 }
 
@@ -360,7 +360,7 @@
     transform: translateX(560px);
   }
   to {
-    transform: translateY(-128px) translateX(560px);
+    transform: translateY(-116.5px) translateX(560px);
   }
 }
 
@@ -706,11 +706,11 @@
   }
 
   .box1 {
-    animation: movedown 2s ease 6s forwards, spread1 1s linear 8s forwards;
+    animation: movedown 1s ease 6s forwards, spread1 1s linear 7s forwards;
   }
   
   .box2 {
-    animation: movedown 2s ease 6s forwards, spread2 1s linear 8s forwards;
+    animation: movedown 1s ease 6s forwards, spread2 1s linear 7s forwards;
   }
   
   .box3 {
@@ -722,11 +722,11 @@
   }
   
   .boxy1 {
-    animation: moveLeft2 2s linear 4s forwards, movedown 2s ease 6s 1 forwards, spread3 1s linear 8s forwards;
+    animation: moveLeft2 2s linear 4s forwards, movedown 1s ease 6s 1 forwards, spread3 1s linear 7s forwards;
   }
   
   .boxy2 {
-    animation: moveLeft2 2s linear 2s forwards, movedown 2s ease 6s 1 forwards, spread4 1s linear 8s forwards;
+    animation: moveLeft2 2s linear 2s forwards, movedown 1s ease 6s 1 forwards, spread4 1s linear 7s forwards;
   }
   
 }
@@ -743,18 +743,30 @@
     animation: headingSM3 1s linear 7s forwards,headingSM6 1s linear 9s forwards;
   }
 }
+
+@keyframes hell {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(20vw);
+  }
+}
 @media (min-width: 300px) and (max-width: 639px) {
 
   .headingXS1{
-    animation: headingXS1 1s linear 7s forwards,headingXS5 1s linear 9s forwards;
+    animation: headingXS1 0.7s linear 7s forwards,headingXS5 0.7s linear 7.7s forwards;
   }
   
   .headingXS2{
-    animation: headingXS2 1s linear 7s forwards,headingXS6 1s linear 9s forwards;
+    animation: headingXS2 0.7s linear 7s forwards,headingXS6 0.7s linear 7.7s forwards;
   }
   
   .headingXS3{
-    animation: headingXS3 1s linear 7s forwards,headingXS7 1s linear 9s forwards;
+    animation: headingXS3 0.7s linear 7s forwards,headingXS7 0.7s linear 7.7s forwards;
+  }
+  .hell{
+    animation: hell 0.7s linear 7s forwards;
   }
   /* .leftydowny {
     animation: lefty 2s linear 2s forwards, downy1 1s linear 4s forwards;
