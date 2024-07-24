@@ -14,6 +14,7 @@ const Home = () => {
 
   // फॉर्म सबमिट हैंडलर
   const submitHandler = (e) => {
+    console.log('hello')
     e.preventDefault();
     setTasks([...tasks, { title, description }]);
     // setTitle('');
