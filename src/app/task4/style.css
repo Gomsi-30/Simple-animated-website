@@ -351,7 +351,7 @@
     transform: translateX(420px);
   }
   to {
-    transform: translateY(-92.5px) translateX(420px);
+    transform: translateY(-92.1px) translateX(420px);
   }
 }
 
@@ -360,7 +360,7 @@
     transform: translateX(560px);
   }
   to {
-    transform: translateY(-116.5px) translateX(560px);
+    transform: translateY(-115.1px) translateX(560px);
   }
 }
 

@@ -41,7 +41,7 @@ const Task = () => {
                       <h1 className='signup1 signupXL1 signupLG1 signupMD1'>Lets turn it</h1> 
                       <h1 className='signup2 signupXL2 signupLG2 signupMD2'>into reality</h1> 
                    </div>
-                   <a href="https://www.xenotix.co.in/" className='xs:text-xs hell xs:text-center text-center signup3 signupXL3 signupLG3 signupMD3 p-1 bg-black text-white w-[100px] xs:rounded-[6px] xs:ml-[20px] xs:mt-[42px] sm:rounded-[11px]' target="_blank" rel="noopener noreferrer">Explore Us</a>
+                   <a href="https://www.xenotix.co.in/" className='hell xs:text-sm sm:text-md text-center signup3 signupXL3 signupLG3 signupMD3 p-1 bg-black text-white w-[100px] xs:mt-[40px] sm:mt-[0px] rounded-[11px]' target="_blank" rel="noopener noreferrer">Explore Us</a>
                 </div>
                 <div className='relative md:mt-[-280px] xs:mt-[50px] z-20'>
                    <motion.div 
@@ -61,7 +61,7 @@ const Task = () => {
                      <img src='https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg?auto=compress&cs=tinysrgb&w=600' className='h-full w-full object-cover' /> 
                    </motion.div>
                    <motion.div 
-                      className='box box3 boxXL3 boxLG3 rightylefty absolute xs:top-10 xs:left-[5vw] md:top-0 md:left-0 xs:h-[120px] xs:w-[120px] xl:h-[230px] xl:w-[230px] bg-blue-100 md:rotate-[10deg]'
+                      className='box box3 boxXL3 boxLG3 rightylefty absolute xs:top-20 xs:left-[15px] md:top-0 md:left-0 xs:h-[120px] xs:w-[120px] xl:h-[230px] xl:w-[230px] bg-blue-100 md:rotate-[10deg]'
                       initial={{ opacity: 0, y: 50 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: 0.4 }}
@@ -69,7 +69,7 @@ const Task = () => {
                      <img src='https://images.pexels.com/photos/255387/pexels-photo-255387.jpeg?auto=compress&cs=tinysrgb&w=600' className='h-full w-full object-cover' />
                    </motion.div>
                    <motion.div 
-                      className='box box4 boxXL4 boxLG4 rightydowny xs:top-10 xs:left-[43vw] md:top-0 md:left-0 absolute xs:h-[120px] xs:w-[120px] xl:h-[230px] xl:w-[230px] bg-yellow-100 md:rotate-[0deg]'
+                      className='box box4 boxXL4 boxLG4 rightydowny xs:top-20 xs:left-[160px] md:top-0 md:left-0 absolute xs:h-[120px] xs:w-[120px] xl:h-[230px] xl:w-[230px] bg-yellow-100 md:rotate-[0deg]'
                       initial={{ opacity: 0, y: 50 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: 0.6 }}
