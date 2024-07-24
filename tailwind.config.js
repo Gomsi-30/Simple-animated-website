@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       screens: {
         'xs': '300px', // Custom xs breakpoint at 480px
+        'sm': '640px', 
       },
       rotate: {
         '10': '10deg',

@@ -16,11 +16,11 @@ const Task = () => {
                    <FaStore size={16}/>
                 </div>
              </nav>
-             <nav className='flex flex-row justify-between items-center p-3 xs:px-[40px] text-sm md:px-[87px] lg:px-[150px] relative'>
+             <nav className='flex flex-row justify-between items-center p-3 xs:px-[40px] text-xs md:px-[87px] lg:px-[150px] relative'>
                 <div className='flex flex-col gap-2 font-semibold'>
-                  <h1 className='headingXS1 headingXL1 heading1 headingLG1 headingMD1'>Explore</h1>
-                  <h1 className='headingXS2 headingXL2 heading2 headingLG2 headingMD2'>Collection</h1>
-                  <h1 className='headingXS3 headingXL3 heading3 headingLG3 headingMD3'>Account</h1>
+                  <h1 className='headingXS1 headingSM1 heading1'>Explore</h1>
+                  <h1 className='headingXS2 headingSM2  heading2 '>Collection</h1>
+                  <h1 className='headingXS3 headingSM3  heading3 '>Account</h1>
                 </div>
                 <div className='hidden1 absolute top-[30px] left-[460px] hidden md:flex flex-col justify-center items-center rounded-full h-[200px] w-[200px] bg-gradient-to-r from-rose-100 via-purple-100 to-pink-200'>
                   <img src='/hand.png' height={40} width={40} />

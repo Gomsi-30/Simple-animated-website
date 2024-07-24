@@ -201,12 +201,68 @@
   }
 }
 
+
+/* SM heading */
+@keyframes headingSM1 {
+  from {
+    transform: translateX(0%);}
+  to {
+    transform: translateX(20vw);
+  }
+}
+
+@keyframes headingSM2 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(32vw);
+  }
+}
+
+@keyframes headingSM3 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(48vw);
+  }
+}
+
+
+@keyframes headingSM4 {
+  from {
+    transform: translateX(20vw);
+  }
+  to {
+    transform: translateY(-61px) translateX(20vw);
+  }
+}
+
+@keyframes headingSM5 {
+  from {
+    transform: translateX(32vw);
+  }
+  to {
+    transform: translateY(-88px) translateX(32vw) 
+  }
+}
+
+@keyframes headingSM6 {
+  from {
+    transform: translateX(48vw);
+  }
+  to {
+    transform: translateY(-116px) translateX(48vw);
+  }
+}
+
 /* xs heading */
 @keyframes headingXS1 {
   from {
     transform: translateX(0%);}
   to {
-    transform: translateX(90px);
+    transform: translateX(15vw);
   }
 }
 
@@ -215,7 +271,7 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(170px);
+    transform: translateX(27vw);
   }
 }
 
@@ -224,33 +280,33 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(220px);
+    transform: translateX(41vw);
   }
 }
 @keyframes headingXS5 {
   from {
-    transform: translateX(90px);
+    transform: translateX(15vw);
   }
   to {
-    transform: translateY(-8px) translateX(90px);
+    transform: translateY(-8px) translateX(15vw);
   }
 }
 
 @keyframes headingXS6 {
   from {
-    transform: translateX(160PX);
+    transform: translateX(27vw);
   }
   to {
-    transform: translateY(-35px) translateX(160px);
+    transform: translateY(-32px) translateX(27vw);
   }
 }
 
 @keyframes headingXS7 {
   from {
-    transform: translateX(240px);
+    transform: translateX(41vw);
   }
   to {
-    transform: translateY(-63px) translateX(240px);
+    transform: translateY(-56px) translateX(41vw);
   }
 }
 
@@ -674,8 +730,20 @@
   }
   
 }
+@media (min-width: 640px) and (max-width: 768px) {
+  .headingSM1 {
+    animation: headingSM1 1s linear 7s forwards,headingSM4 1s linear 9s forwards;
+  }
 
-@media (max-width: 640px) and (min-width: 400px) {
+  .headingSM2 {
+    animation: headingSM2 1s linear 7s forwards,headingSM5 1s linear 9s forwards;
+  }
+
+  .headingSM3 {
+    animation: headingSM3 1s linear 7s forwards,headingSM6 1s linear 9s forwards;
+  }
+}
+@media (min-width: 300px) and (max-width: 639px) {
 
   .headingXS1{
     animation: headingXS1 1s linear 7s forwards,headingXS5 1s linear 9s forwards;
